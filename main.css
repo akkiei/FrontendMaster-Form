@@ -1,0 +1,98 @@
+@import url("https://fonts.google.com/specimen/Poppins");
+
+body {
+  background-image: url("./images/bg-intro-desktop.png");
+  background-color: hsl(0, 100%, 74%);
+  display: flex;
+  font-family: "Poppins";
+  color: white;
+}
+
+.left {
+  text-align: left;
+  margin-top: 20%;
+  margin-left: 10%;
+  width: 40%;
+}
+label {
+  color: hsl(246, 25%, 77%);
+  font-size: smaller;
+  display: inline-block;
+}
+.right {
+  /* width: 60%; */
+  margin-top: 10%;
+}
+form {
+  background-color: white;
+  margin: 2%;
+  /* width:50%; */
+  padding: 2%;
+  border-radius: 3px;
+}
+
+.banner {
+  background-color: hsl(248, 32%, 49%);
+  margin-top: 15%;
+  height: 35px;
+  width: 600px;
+  text-align: center;
+  border: 1px solid rgba(8, 1, 1, 0.267);
+  border-radius: 3px;
+}
+
+input {
+  width: 90%;
+  padding: 2%;
+  margin: 2%;
+  display: block;
+  border: 1px solid hsl(246, 25%, 77%);
+}
+
+input:active {
+  border-color: black;
+}
+
+@media screen and (max-width: 375px) {
+  body {
+    display: block;
+  }
+  .banner {
+    width: auto;
+    height: auto;
+  }
+
+  .left {
+    text-align: center;
+    /* margin-top: 20%; */
+    /* margin-left: 10%; */
+    width: 40%;
+  }
+
+  h1 {
+    width: 250px;
+    margin: 0px;
+    padding: 0px;
+    font-size: large;
+    font-weight: bolder;
+    text-decoration-thickness: 20%;
+    /* height: 100px; */
+  }
+  p {
+    width: 250px;
+    margin: 0px;
+    padding: 0px;
+    font-size: medium;
+    font-weight: 100;
+  }
+  label {
+    color: hsl(246, 25%, 77%);
+    font-size: smaller;
+    text-align: center;
+    padding: 2%;
+    margin: 1%;
+  }
+  form {
+    width: auto;
+  }
+}
